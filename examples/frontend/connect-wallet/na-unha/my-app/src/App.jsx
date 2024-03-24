@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
-import "./App.css";
+import "./frontend/styles/App";
 
 function ConnectWallet() {
   const [enderecoConectado, setEnderecoConectado] = useState('');
